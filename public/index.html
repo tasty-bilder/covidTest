@@ -10,12 +10,22 @@
   </head>
   <body>
     <!--쿠팡 배너 광고-->
-    <div cp_banr style="display:flex; justify-content: center;">
-      <script src="https://ads-partners.coupang.com/g.js"></script>
-      <script>
-        new PartnersCoupang.G({ id:367489 });
-      </script>
+    <div class="banr" style="display:flex; flex-direction: column; align-items: center;">
+        <div style="margin-top: 30px;"> 
+          <script src="https://ads-partners.coupang.com/g.js"></script>
+            <script>
+              new PartnersCoupang.G({ id:367489 });
+            </script>
+        </div>  
+        <div id="root"></div>
+       <div className="ka_banr" style="display:flex; justify-content: center;">
+          <ins class="kakao_ad_area" style="display:flex;" 
+          data-ad-unit    = "DAN-ux17uyyPqRTU03oL" 
+          data-ad-width   = "728" 
+          data-ad-height  = "90"></ins> 
+          <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+      </div>
     </div>
-    <div id="root"></div>
+    
   </body>
 </html>

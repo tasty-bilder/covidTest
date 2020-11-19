@@ -7,6 +7,7 @@ import Ready from "./components/Ready"
 import Start from "./components/Start"
 import Answer from "./components/Answer"
 import End from "./components/End"
+import Katalkbanr from "./components/Katalkbanr"
 
 
 import basic_image from './imgs/face.png';
@@ -92,6 +93,7 @@ class App extends Component {
         <Subject></Subject>
         {_imagepreview}
         {_component}
+        
       </div>
     );
   }

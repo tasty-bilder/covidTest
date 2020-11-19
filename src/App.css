@@ -1,4 +1,4 @@
-.App{margin-top: 50px; width:100vw; height:100vh; display:flex; flex-direction: column; align-items: center;}
+.App{margin-top: 50px; width:100vw; margin-bottom: 50px; display:flex; flex-direction: column; align-items: center;}
 header h1{font-size: 50px; color:darkblue;}
 
 .image_hold{margin-top:50px; display:flex; flex-direction: column; align-items: center;}
@@ -19,5 +19,4 @@ header h1{font-size: 50px; color:darkblue;}
 
 
 .end_wrap {margin-top: 70px; text-align: center;}
-
 .end_wrap h1{font-size: 150px;}
