@@ -39,7 +39,7 @@ class App extends Component {
     let _component = null;
     let _imagepreview = null;
     if(this.state.mode === 'ready'){
-      _imagepreview =  <Imageprieview image={this.state.image_src}></Image_prieview>;
+      _imagepreview =  <Imageprieview image={this.state.image_src}></Imageprieview>;
       _component = <Ready
       onChangePage = {function(e){
         console.log(e.target.files[0]);
@@ -50,7 +50,7 @@ class App extends Component {
       ></Ready>;
     }
     else if(this.state.mode === 'start'){
-      _imagepreview =  <Imageprieview image={this.state.image_src}></Image_prieview>;
+      _imagepreview =  <Imageprieview image={this.state.image_src}></Imageprieview>;
       _component = <Start
       onChangePage = {function(e){
         this.setState({mode: 'answer'})
@@ -58,7 +58,7 @@ class App extends Component {
     }
     else if(this.state.mode === 'answer'){
       let _comment = null;
-      _imagepreview =  <Imageprieview image={this.state.image_src}></Image_prieview>;
+      _imagepreview =  <Imageprieview image={this.state.image_src}></Imageprieview>;
       _component = <Answer
       desc = {this.state.question[this.state.count].quest}
       onChangePage = {function(e){
