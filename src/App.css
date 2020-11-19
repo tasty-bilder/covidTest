@@ -2,14 +2,14 @@
 header h1{font-size: 50px; color:darkblue;}
 
 .image_hold{margin-top:50px; display:flex; flex-direction: column; align-items: center;}
-.image_hold .upimage{margin-top:50px; width:300px;}
+.image_hold .upimage{margin-top:50px; width:20vw;}
 
 .image_btn{margin-top:70px; width: 300px; height:50px; background-color:skyblue; border-radius:50px; display:flex; align-items: center; justify-content: center;}
 .image_in{font-size:18px; font-weight: 700; color:white;}
 #file_load{display:none;}
 
 .answer_wrap{margin-top:100px; display:flex; flex-direction: column; align-items: center; justify-content: center;}
-.quest_label{font-size: 30px;}
+.quest_label{font-size: 30px; }
 
 .start_btn{outline:none; border:none; margin-top:70px; width: 300px; height:50px; background-color:orange; font-size:18px; font-weight: 700; color:white; border-radius:50px;}
 

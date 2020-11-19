@@ -8,6 +8,7 @@ import Start from "./components/Start"
 import Answer from "./components/Answer"
 import End from "./components/End"
 
+
 import basic_image from './imgs/face.png';
 
 class App extends Component {
