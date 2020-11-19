@@ -8,14 +8,15 @@ import Start from "./components/Start"
 import Answer from "./components/Answer"
 import End from "./components/End"
 
-
-import basic_image from './imgs/face.png';
+//2020.11.20 imagefileupload stop
+//import basic_image from './imgs/face.png';
+import basic_image from './imgs/covid.png';
 
 class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      mode: 'ready',
+      mode: 'start',
       value: 0,
       count: 0,
       image_src: basic_image,
@@ -59,7 +60,7 @@ class App extends Component {
     }
     else if(this.state.mode === 'answer'){
       let _comment = null;
-      _imagepreview =  <Imageprieview image={this.state.image_src}></Imageprieview>;
+      //_imagepreview =  <Imageprieview image={this.state.image_src}></Imageprieview>;
       _component = <Answer
       desc = {this.state.question[this.state.count].quest}
       onChangePage = {function(e){

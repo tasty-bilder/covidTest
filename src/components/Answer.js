@@ -5,7 +5,7 @@ class Answer extends Component {
   render(){
     return (
         <div className="answer_wrap">
-            <label className="quest_label">{this.props.desc}</label>
+            <h2><label className="quest_label">{this.props.desc}</label></h2>
             <div className="btn_wrap">
               <button className="true_btn" onClick = {function(e){
                 e.preventDefault();
