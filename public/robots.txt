@@ -1,2 +1,3 @@
 User-agent: *
 Allow:/
+Sitemap:https://covid-action-test.netlify.app/sitemap.xml
