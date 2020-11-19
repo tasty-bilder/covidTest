@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Subject from "./components/Subject"
-import Image_prieview from "./components/Image_prieview"
+import Imageprieview from "./components/Imageprieview"
 import Ready from "./components/Ready"
 import Start from "./components/Start"
 import Answer from "./components/Answer"
@@ -39,7 +39,7 @@ class App extends Component {
     let _component = null;
     let _imagepreview = null;
     if(this.state.mode === 'ready'){
-      _imagepreview =  <Image_prieview image={this.state.image_src}></Image_prieview>;
+      _imagepreview =  <Imageprieview image={this.state.image_src}></Image_prieview>;
       _component = <Ready
       onChangePage = {function(e){
         console.log(e.target.files[0]);
@@ -50,7 +50,7 @@ class App extends Component {
       ></Ready>;
     }
     else if(this.state.mode === 'start'){
-      _imagepreview =  <Image_prieview image={this.state.image_src}></Image_prieview>;
+      _imagepreview =  <Imageprieview image={this.state.image_src}></Image_prieview>;
       _component = <Start
       onChangePage = {function(e){
         this.setState({mode: 'answer'})
@@ -58,7 +58,7 @@ class App extends Component {
     }
     else if(this.state.mode === 'answer'){
       let _comment = null;
-      _imagepreview =  <Image_prieview image={this.state.image_src}></Image_prieview>;
+      _imagepreview =  <Imageprieview image={this.state.image_src}></Image_prieview>;
       _component = <Answer
       desc = {this.state.question[this.state.count].quest}
       onChangePage = {function(e){
